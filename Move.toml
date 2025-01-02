@@ -1,0 +1,16 @@
+[package]
+name = "hello_capabilities"
+version = "1.0.0"
+authors = []
+
+[addresses]
+hello_capabilities = "0x3d4d787f1464709569c070a0fd5771ddd59649b170dc498c4576c3511ef511dc"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
